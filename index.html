@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LAKSHAY SHRIVASTAV | Data Analyst Portfolio</title>
+<meta name="description" content="Data Analyst portfolio showcasing SQL, Python, Excel, Power BI, statistics, business analytics, machine learning, and GenAI projects." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="LAKSHAY SHRIVASTAV | Data Analyst Portfolio" />
+<meta property="og:description" content="Entry-level Data Analyst — SQL, Power BI, Python, Business Analytics. Explore end-to-end analytics projects." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/images/og-cover.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Scroll progress indicator -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<!-- Cursor glow (desktop, motion-safe only) -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="#home" class="brand"><span class="dot"></span> LAKSHAY SHRIVASTAV</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#skills" data-nav="skills">Skills</a>
+      <a href="#experience" data-nav="experience">Experience</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+      <a href="#education" data-nav="education">Education</a>
+      <a href="#certifications" data-nav="certifications">Certifications</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <a class="icon-link" href="https://github.com/LAKSHAYSHRIVASTAV" target="_blank" rel="noopener">GitHub</a>
+      <a class="icon-link" href="[YOUR LINKEDIN URL]" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="icon-link" href="assets/resume/Lakshay_Shrivastav_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-panel" id="mobilePanel">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+    <div class="mobile-extra">
+      <a href="https://github.com/LAKSHAYSHRIVASTAV" target="_blank" rel="noopener">GitHub</a>
+      <a href="[YOUR LINKEDIN URL]" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="assets/resume/Lakshay_Shrivastav_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+</header>
+
+<main id="mainView">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="hero-blob blob-1"></span>
+      <span class="hero-blob blob-2"></span>
+      <span class="hero-blob blob-3"></span>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="wrap">
+      <div>
+         <!-- Availability Status -->
+      <div class="hero-status">
+        <span class="hero-status-line"></span>
+        <span class="hero-status-dot"></span>
+        <span>OPEN TO DATA ANALYST ROLES</span>
+      </div>
+        <h1 class="hero-name">LAKSHAY SHRIVASTAV</h1>
+        <p class="hero-role"><span id="heroRoleText" data-roles="Data Analyst,Business Analytics,SQL &amp; Power BI,Python &amp; Statistics,GenAI-Assisted Analytics">Data Analyst</span><span class="hero-role-cursor" aria-hidden="true"></span></p>
+        <p class="hero-intro">Entry-level Data Analyst with hands-on experience in SQL, Excel, Power BI, Python, statistics, machine learning fundamentals, and Generative AI. I build data-driven solutions that transform raw business data into actionable insights.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="assets/resume/Lakshay_Shrivastav_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+
+        <div class="hero-secondary">
+          <a href="https://github.com/LAKSHAYSHRIVASTAV" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="[YOUR LINKEDIN URL]" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <!-- INTERACTIVE ANALYTICS SKILL STACK -->
+      <div class="hero-card skill-stack-card">
+
+        <div class="skill-stack-header">
+          <div>
+            <span class="skill-stack-label">CORE CAPABILITIES</span>
+            <h3>Analytics Skill Stack</h3>
+          </div>
+          <span class="skill-stack-year">2026</span>
+        </div>
+
+        <div class="skill-tabs" role="tablist" aria-label="Skill category">
+          <span class="skill-tab-indicator" id="skillTabIndicator" aria-hidden="true"></span>
+          <button type="button" class="skill-tab active" data-skill="data-sql" role="tab" aria-selected="true">Data &amp; SQL</button>
+          <button type="button" class="skill-tab" data-skill="bi-excel" role="tab" aria-selected="false">BI &amp; Excel</button>
+          <button type="button" class="skill-tab" data-skill="python-stats" role="tab" aria-selected="false">Python &amp; Statistics</button>
+          <button type="button" class="skill-tab" data-skill="ml-ai" role="tab" aria-selected="false">ML &amp; GenAI</button>
+          <button type="button" class="skill-tab" data-skill="business" role="tab" aria-selected="false">Business Analytics</button>
+          <button type="button" class="skill-tab" data-skill="problem-solving" role="tab" aria-selected="false">Problem Solving</button>
+        </div>
+
+        <div class="skill-content">
+
+          <div class="skill-panel active" data-panel="data-sql">
+            <div class="skill-panel-heading">
+              <strong>Data &amp; SQL</strong>
+              <span>Data querying, transformation &amp; preparation</span>
+            </div>
+            <div class="skill-chips">
+              <span>SQL</span><span>MySQL</span><span>SELECT</span><span>WHERE</span><span>JOINs</span>
+              <span>Subqueries</span><span>CTEs</span><span>Window Functions</span><span>Aggregations</span>
+              <span>GROUP BY</span><span>CASE Statements</span><span>Data Cleaning</span>
+              <span>Feature Engineering</span><span>SQL Views</span>
+            </div>
+            <div class="skill-project-link">Used across all <strong>3 portfolio projects</strong></div>
+          </div>
+
+          <div class="skill-panel" data-panel="bi-excel">
+            <div class="skill-panel-heading">
+              <strong>BI &amp; Excel</strong>
+              <span>Reporting &amp; business intelligence</span>
+            </div>
+            <div class="skill-chips">
+              <span>Power BI</span><span>DAX</span><span>Power Query</span><span>Excel</span><span>Pivot Tables</span>
+              <span>Data Cleaning</span><span>Data Transformation</span><span>Data Modeling</span>
+              <span>KPIs &amp; Measures</span><span>Interactive Dashboards</span><span>Drillthrough</span>
+              <span>Slicers</span><span>Bookmarks</span><span>Conditional Formatting</span>
+              <span>Data Visualization</span><span>Business Reporting</span>
+            </div>
+            <div class="skill-project-link">Power BI dashboards built for <strong>all 3 projects</strong></div>
+          </div>
+
+          <div class="skill-panel" data-panel="python-stats">
+            <div class="skill-panel-heading">
+              <strong>Python &amp; Statistics</strong>
+              <span>Analysis &amp; experimentation</span>
+            </div>
+            <div class="skill-chips">
+              <span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+              <span>EDA</span><span>Data Cleaning</span><span>Data Validation</span><span>Descriptive Statistics</span>
+              <span>Probability</span><span>Correlation Analysis</span><span>Hypothesis Testing</span>
+              <span>p-value</span><span>A/B Testing</span><span>Statistical Testing</span><span>Outlier Analysis</span>
+              <span>Trend Analysis</span><span>Moving Average</span><span>Forecasting Basics</span>
+            </div>
+            <div class="skill-project-link">Applied in <strong>A/B testing &amp; analytical projects</strong></div>
+          </div>
+
+          <div class="skill-panel" data-panel="ml-ai">
+            <div class="skill-panel-heading">
+              <strong>Machine Learning &amp; GenAI</strong>
+              <span>Predictive &amp; AI-assisted analytics</span>
+            </div>
+            <div class="skill-chips">
+              <span>Scikit-learn</span><span>Regression</span><span>Classification</span><span>K-Means</span>
+              <span>Feature Engineering</span><span>Model Evaluation</span><span>Prompt Engineering</span>
+              <span>Generative AI</span><span>Gemini API</span><span>AI-Assisted Analysis</span>
+            </div>
+            <div class="ai-use-cases">
+              <div class="ai-use-case">
+                <strong>Excel</strong>
+                <span>AI-assisted formulas, analysis, validation and business interpretation</span>
+              </div>
+              <div class="ai-use-case">
+                <strong>SQL / MySQL</strong>
+                <span>AI-assisted query generation, explanation, debugging and analytical exploration</span>
+              </div>
+              <div class="ai-use-case">
+                <strong>Python</strong>
+                <span>AI-assisted analytical code, debugging, EDA and model interpretation</span>
+              </div>
+              <div class="ai-use-case">
+                <strong>Power BI</strong>
+                <span>AI-assisted DAX, dashboard insights and analytical narratives</span>
+              </div>
+              <div class="ai-use-case">
+                <strong>GenAI API</strong>
+                <span>Gemini-powered customer-level recommendations in the retention project</span>
+              </div>
+            </div>
+            <div class="skill-project-link">AI used as an <strong>analyst productivity and insight layer</strong>, not as a replacement for analytical validation.</div>
+          </div>
+
+          <div class="skill-panel" data-panel="business">
+            <div class="skill-panel-heading">
+              <strong>Business Analytics</strong>
+              <span>Turning analysis into decisions</span>
+            </div>
+            <div class="skill-chips">
+              <span>KPI Analysis</span><span>Customer Analytics</span><span>Retention Analysis</span>
+              <span>Experimentation</span><span>Marketing Analytics</span><span>CAC Analysis</span>
+              <span>Attribution</span><span>Budget Allocation</span><span>Scenario Analysis</span><span>Business Insights</span>
+            </div>
+            <div class="skill-project-link">Business problems covered across <strong>3 end-to-end projects</strong></div>
+          </div>
+
+          <div class="skill-panel" data-panel="problem-solving">
+            <div class="skill-panel-heading">
+              <strong>Problem Solving</strong>
+              <span>Structured analytical thinking</span>
+            </div>
+            <div class="skill-chips">
+              <span>Problem Structuring</span><span>Root Cause Analysis</span><span>Hypothesis-Driven Analysis</span>
+              <span>Data Validation</span><span>Metric Definition</span><span>Trend Analysis</span>
+              <span>Segmentation</span><span>Scenario Analysis</span><span>Experiment Analysis</span><span>Business Interpretation</span>
+            </div>
+            <div class="skill-project-link">Applied across <strong>retention, experimentation &amp; marketing analytics</strong></div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /skill-stack-card -->
+
+    </div>
+  </section>
+
+  <!-- ============ TECH MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>SQL</span><span>Power BI</span><span>Python</span><span>Excel</span><span>DAX</span>
+      <span>Statistics</span><span>Machine Learning</span><span>Scikit-learn</span><span>Gemini API</span>
+      <span>MySQL</span><span>A/B Testing</span><span>Pandas</span>
+      <span>SQL</span><span>Power BI</span><span>Python</span><span>Excel</span><span>DAX</span>
+      <span>Statistics</span><span>Machine Learning</span><span>Scikit-learn</span><span>Gemini API</span>
+      <span>MySQL</span><span>A/B Testing</span><span>Pandas</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-copy">
+        <h2 class="eyebrow" style="margin-bottom:14px;">About Me</h2>
+        <p>I am a Computer Science graduate focused on Data Analytics and Business Analytics. My work combines SQL, Excel, Python, Power BI, statistics, and AI-assisted analytical workflows to solve practical business problems.</p>
+        <p>I enjoy working on problems involving customer behavior, experimentation, marketing performance, business KPIs, and data-driven decision making.</p>
+        <p>My approach is simple: understand the business problem, analyze the data, validate the results, and communicate insights clearly.</p>
+      </div>
+
+      <div>
+        <p class="focus-title">What I Focus On</p>
+        <ul class="focus-list">
+          <li>Business Problem Solving</li>
+          <li>Data Analysis</li>
+          <li>Business Intelligence</li>
+          <li>Statistical Analysis</li>
+          <li>Experimentation</li>
+          <li>Customer Analytics</li>
+          <li>Marketing Analytics</li>
+          <li>AI-Assisted Analytics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools and methods I use to move from raw data to business decisions.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Data Analysis</h3>
+          <div class="tag-row">
+            <span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Pandas</span>
+            <span class="tag">NumPy</span><span class="tag">Exploratory Data Analysis</span>
+            <span class="tag">Data Cleaning</span><span class="tag">Data Validation</span><span class="tag">KPI Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Business Intelligence</h3>
+          <div class="tag-row">
+            <span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span>
+            <span class="tag">Dashboard Development</span><span class="tag">Data Visualization</span>
+            <span class="tag">Drillthrough</span><span class="tag">Interactive Reporting</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Excel</h3>
+          <div class="tag-row">
+            <span class="tag">Advanced Excel</span><span class="tag">Lookup Functions</span><span class="tag">Pivot Tables</span>
+            <span class="tag">Charts</span><span class="tag">Power Query</span><span class="tag">Business Modeling</span>
+            <span class="tag">Sensitivity Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Statistics &amp; Experimentation</h3>
+          <div class="tag-row">
+            <span class="tag">Descriptive Statistics</span><span class="tag">Probability</span>
+            <span class="tag">Hypothesis Testing</span><span class="tag">p-values</span>
+            <span class="tag">Confidence Intervals</span><span class="tag">A/B Testing</span>
+            <span class="tag">Conversion Analysis</span><span class="tag">Trend Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Machine Learning</h3>
+          <div class="tag-row">
+            <span class="tag">Scikit-learn</span><span class="tag">Regression</span><span class="tag">Classification</span>
+            <span class="tag">Clustering</span><span class="tag">K-Means</span><span class="tag">Feature Engineering</span>
+            <span class="tag">Model Evaluation</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Generative AI</h3>
+          <div class="tag-row">
+            <span class="tag">Prompt Engineering</span><span class="tag">Gemini API</span>
+            <span class="tag">AI-Assisted Analysis</span><span class="tag">LLM Evaluation</span>
+            <span class="tag">AI-Generated Business Insights</span><span class="tag">RAG Fundamentals</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Business Analytics</h3>
+          <div class="tag-row">
+            <span class="tag">Customer Analytics</span><span class="tag">Marketing Analytics</span>
+            <span class="tag">Customer Retention</span><span class="tag">Attribution Analysis</span>
+            <span class="tag">CAC</span><span class="tag">ROAS</span><span class="tag">Funnel Analysis</span>
+            <span class="tag">Business Recommendations</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Problem Solving &amp; Consulting</h3>
+          <div class="tag-row">
+            <span class="tag">Structured Problem Solving</span>
+            <span class="tag">Root Cause Analysis</span>
+            <span class="tag">Hypothesis-Driven Analysis</span>
+            <span class="tag">Business Problem Framing</span>
+            <span class="tag">Critical Thinking</span>
+            <span class="tag">Data-Driven Decision Making</span>
+            <span class="tag">Business Recommendations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="section">
+  <div class="wrap">
+    <div class="section-heading">
+      
+      <h2>Work Experience</h2>
+      <p>
+        Practical experience gained through structured programming assignments,
+        technical problem-solving, and hands-on development work.
+      </p>
+    </div>
+
+    <div class="experience-item">
+
+      <div class="experience-header">
+        <div>
+          <h3>Python Development Intern — Cognifyz Technologies</h3>
+          <span class="experience-date">Jul 2025 – Aug 2025</span>
+        </div>
+      </div>
+
+      <ul class="experience-points">
+        <li>
+          Completed a Python development internship involving
+          <strong>practical programming assignments, problem-solving tasks,
+          and hands-on technical learning.</strong>
+        </li>
+
+        <li>
+          Applied Python programming concepts to assigned development
+          challenges with a focus on <strong>structured and detail-oriented
+          execution.</strong>
+        </li>
+
+        <li>
+          Worked through technical assignments by understanding requirements,
+          breaking problems into manageable tasks, and developing
+          <strong>solution-focused approaches.</strong>
+        </li>
+
+        <li>
+          Demonstrated <strong>communication, coordination, attention to
+          detail, and adaptability</strong> while completing assigned tasks.
+        </li>
+
+        <li>
+          Strengthened practical understanding of
+          <strong>Python development workflows and programming fundamentals</strong>
+          through hands-on assignments.
+        </li>
+      </ul>
+
+      <div class="experience-certificate">
+        <strong>Certificate:</strong>
+        <a
+          href="C:\Users\lakshay shrivastav\Downloads\Lakshay Shrivastav (2).pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Certificate ↗
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="wrap">
+
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <p>Three end-to-end analytics projects focused on customer analytics, experimentation, and marketing performance. Each links out to the full code and documentation on GitHub.</p>
+      </div>
+
+      <div class="project-list">
+
+        <!-- PROJECT 1 — CUSTOMER RETENTION -->
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-hero-image" data-lightbox data-caption="Customer Retention Intelligence System — Executive Overview">
+              <img src="assets/images/customer-retention-intelligence/01-executive-overview.png"
+                   alt="Customer Retention Intelligence System — Executive Overview" loading="lazy">
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Customer Retention Intelligence System</h3>
+            <p class="project-problem">Identify customers at risk of churn and generate actionable retention insights.</p>
+            <div class="project-tools">
+              <span>SQL</span><span>Python</span><span>MySQL</span><span>Power BI</span><span>DAX</span><span>Scikit-learn</span><span>Gemini API</span>
+            </div>
+            <ul class="project-points">
+              <li>SQL-based feature engineering</li>
+              <li>Machine learning retention-risk prediction</li>
+              <li>Power BI dashboard with customer-level drillthrough</li>
+            </ul>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-open-project="project-1">View Project</button>
+              <a class="btn btn-outline btn-sm" href="https://github.com/LAKSHAYSHRIVASTAV/Customer_Retention_Intelligence" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 — A/B TEST -->
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-hero-image" data-lightbox data-caption="A/B Test Analysis — UrbanCart Checkout Redesign">
+              <img src="assets/images/A_B-test-checkout-redesign/01-executive-overviewP2.png"
+                   alt="A/B Test Analysis — UrbanCart Checkout Redesign" loading="lazy">
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>A/B Test Analysis — UrbanCart Checkout Redesign</h3>
+            <p class="project-problem">Determine whether a redesigned checkout experience improved conversion.</p>
+            <div class="project-tools">
+              <span>MySQL</span><span>Python</span><span>Power BI</span><span>Statistics</span><span>DAX</span>
+            </div>
+            <ul class="project-points">
+              <li>Conversion rate &amp; uplift analysis</li>
+              <li>Sample Ratio Mismatch validation</li>
+              <li>Device and traffic-source segmentation</li>
+            </ul>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-open-project="project-2">View Project</button>
+              <a class="btn btn-outline btn-sm" href="https://github.com/LAKSHAYSHRIVASTAV/A_B_Test_Checkout_Redesign" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 — MARKETING ATTRIBUTION -->
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-hero-image" data-lightbox data-caption="Multi-Channel Marketing Attribution &amp; CAC Analysis">
+              <img src="assets/images/Multi-Channel-Marketing-Attribution/01-executive-overviewP3.png"
+                   alt="Multi-Channel Marketing Attribution and CAC Analysis" loading="lazy">
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Multi-Channel Marketing Attribution &amp; CAC Analysis</h3>
+            <p class="project-problem">Determine which marketing channels generate valuable customers and support data-driven budget allocation.</p>
+            <div class="project-tools">
+              <span>MySQL</span><span>Excel</span><span>Python</span><span>Power BI</span>
+            </div>
+            <ul class="project-points">
+              <li>Five attribution models compared</li>
+              <li>₹10 lakh Excel budget-allocation model</li>
+              <li>Conservative / Base / Aggressive scenarios</li>
+            </ul>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-open-project="project-3">View Project</button>
+              <a class="btn btn-outline btn-sm" href="https://github.com/LAKSHAYSHRIVASTAV/Multi-Channel-Marketing-Attribution-CAC-Analysis" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+ <section class="education" id="education">
+  <div class="wrap">
+
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+
+    <div class="education-layout">
+
+      <!-- EDUCATION -->
+      <div class="edu-card">
+
+        <h3>
+          Bachelor of Technology (B.Tech) —
+          Computer Science &amp; Engineering
+        </h3>
+
+        <p>
+          Mahatma Gandhi College of Engineering and Technology
+        </p>
+
+        <p>
+          Affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU)
+        </p>
+
+        <p>
+          Noida, Uttar Pradesh · Graduated 2026
+        </p>
+
+      </div>
+
+
+      <!-- ORBITAL SKILL MENU -->
+      <div class="orbit-container">
+
+        <div class="orbit-center">
+          <span>DATA</span>
+          <strong>ANALYST</strong>
+        </div>
+
+        <div class="orbit-track">
+
+          <a href="#skills" class="orbit-item orbit-1">
+            SQL
+          </a>
+
+          <a href="#skills" class="orbit-item orbit-2">
+            Power BI
+          </a>
+
+          <a href="#skills" class="orbit-item orbit-3">
+            Python
+          </a>
+
+          <a href="#skills" class="orbit-item orbit-4">
+            Excel
+          </a>
+
+          <a href="#skills" class="orbit-item orbit-5">
+            Statistics
+          </a>
+
+          <a href="#skills" class="orbit-item orbit-6">
+            GenAI
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+ <!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="section">
+  <div class="wrap">
+    <div class="section-heading">
+      <span class="eyebrow">CERTIFICATIONS</span>
+      <h2>Professional Certifications</h2>
+      <p>
+        Industry-recognized certifications supporting my practical skills
+        in SQL, Python, data analysis, data visualization, and business analysis.
+      </p>
+    </div>
+
+    <div class="certifications-grid">
+
+      <!-- SQL -->
+      <div class="certification-card">
+        <div class="certification-content">
+          <span class="certification-provider">IBM Skills Network</span>
+
+          <h3>SQL and Relational Databases 101</h3>
+
+          <span class="certification-date">September 2026</span>
+
+          <p>
+            Covered SQL querying, relational database concepts, filtering,
+            sorting, joins, aggregations, and database fundamentals.
+          </p>
+
+          <a
+            href="C:\Users\lakshay shrivastav\Downloads\IBM Skills Network SQLDB0101EN Certificate _ Cognitive Class.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-link"
+          >
+            View Certificate ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- Data Analysis -->
+      <div class="certification-card">
+        <div class="certification-content">
+          <span class="certification-provider">IBM Skills Network</span>
+
+          <h3>Data Analysis with Python</h3>
+
+          <span class="certification-date">September 2026</span>
+
+          <p>
+            Covered Python-based data analysis, data manipulation,
+            exploratory analysis, and working with datasets using
+            Python libraries.
+          </p>
+
+          <a
+            href="C:\Users\lakshay shrivastav\Downloads\IBM DA0101EN Certificate _ Cognitive Class.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-link"
+          >
+            View Certificate ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- Data Visualization -->
+      <div class="certification-card">
+        <div class="certification-content">
+          <span class="certification-provider">IBM Skills Network</span>
+
+          <h3>Data Visualization with Python</h3>
+
+          <span class="certification-date">September 2026</span>
+
+          <p>
+            Covered data visualization using Python, including Matplotlib,
+            Seaborn, and techniques for communicating analytical insights.
+          </p>
+
+          <a
+            href="C:\Users\lakshay shrivastav\Downloads\Data visualization.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-link"
+          >
+            View Certificate ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- EY Audit Job Simulation -->
+      <div class="certification-card">
+        <div class="certification-content">
+          <span class="certification-provider">EY · Forage</span>
+
+          <h3>EY Audit Job Simulation</h3>
+
+          <span class="certification-date">August 2026</span>
+
+          <p>
+            Completed a practical audit simulation involving business
+            understanding, sustainability reporting, significant accounts,
+            risk assessment, and control/substantive testing.
+          </p>
+
+          <a
+            href="C:\Users\lakshay shrivastav\Downloads\EY job simulation certificate.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-link"
+          >
+            View Certificate ↗
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="contact-copy">
+        <h2 class="eyebrow" style="margin-bottom:14px;">Let's Connect</h2>
+        <p>Interested in discussing data, analytics, or business problems? Feel free to connect with me.</p>
+        <a class="btn btn-primary" href="mailto:lakshayshrivastav@8gmail.com">Get In Touch</a>
+      </div>
+      <div class="contact-list">
+        <a href="mailto:lakshayshrivastav@8gmail.com" data-copy="">
+          <span>Email</span><span>lakshayshrivastav@8gmail.com</span>
+          <span class="copy-toast">Copied</span>
+        </a>
+        <a href="https://www.linkedin.com/in/lakshayshrivastav" target="_blank" rel="noopener"><span>LinkedIn</span><span>Lakshay Shrivastav</span></a>
+        <a href="https://github.com/LAKSHAYSHRIVASTAV" target="_blank" rel="noopener"><span>GitHub</span><span>LAKSHAYSHRIVASTAV</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ PROJECT DETAIL VIEWS ============ -->
+
+<section class="project-detail" id="project-1">
+  <div class="wrap">
+    <a href="#projects" class="detail-back" data-close-project>← Back to Projects</a>
+
+    <div class="detail-head">
+      <h2>Customer Retention Intelligence System</h2>
+      <p class="project-problem">Identify customers at risk of churn and generate actionable retention insights.</p>
+      <div class="project-tools">
+        <span>SQL</span><span>Python</span><span>MySQL</span><span>Power BI</span><span>DAX</span><span>Scikit-learn</span><span>Gemini API</span>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>Business Problem</h4>
+      <p>Identify customers at risk of churn and generate actionable retention insights.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Approach</h4>
+      <p>Built an end-to-end customer retention analytics solution using customer, order, and support-ticket data. Developed SQL-based features, trained a machine-learning model for retention-risk prediction, and created an interactive Power BI dashboard to analyze risk drivers and customer-level insights.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Tools Used</h4>
+      <p>SQL, Python, MySQL, Power BI, DAX, Scikit-learn, Gemini API</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Analysis</h4>
+      <ul>
+        <li>SQL-based feature engineering</li>
+        <li>Customer churn / retention risk analysis</li>
+        <li>Machine learning risk prediction</li>
+        <li>Power BI interactive dashboard</li>
+        <li>Customer-level drillthrough</li>
+      </ul>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Findings</h4>
+      <ul>
+        <li>Dynamic business insights surfaced through the dashboard</li>
+        <li>Gemini-powered retention recommendations</li>
+      </ul>
+    </div>
+
+    <div class="detail-block">
+      <h4>Dashboard / Screenshots</h4>
+      <div class="project-gallery" data-gallery="project-1">
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Executive Overview">
+          <img src="assets/images/customer-retention-intelligence/01-executive-overview.png" alt="Customer Retention Intelligence — Executive Overview">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Customer Risk Analysis">
+          <img src="assets/images/customer-retention-intelligence/02-customer-risk-analysis.png" alt="Customer Retention Intelligence — Customer Risk Analysis">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Customer Risk Drivers">
+          <img src="assets/images/customer-retention-intelligence/03-customer-risk-drivers.png" alt="Customer Retention Intelligence — Customer Risk Drivers">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Retention Strategy">
+          <img src="assets/images/customer-retention-intelligence/04-retention-strategy.png" alt="Customer Retention Intelligence — Retention Strategy">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Customer Risk Tooltip">
+          <img src="assets/images/customer-retention-intelligence/05-customer-risk-tooltip.png" alt="Customer Retention Intelligence — Customer Risk Tooltip">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 1 — Customer Details">
+          <img src="assets/images/customer-retention-intelligence/06-customer-details.png" alt="Customer Retention Intelligence — Customer Details">
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>GitHub Repository</h4>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="https://github.com/LAKSHAYSHRIVASTAV/Customer_Retention_Intelligence" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="project-detail" id="project-2">
+  <div class="wrap">
+    <a href="#projects" class="detail-back" data-close-project>← Back to Projects</a>
+
+    <div class="detail-head">
+      <h2>A/B Test Analysis — UrbanCart Checkout Redesign</h2>
+      <p class="project-problem">Determine whether a redesigned checkout experience improved conversion.</p>
+      <div class="project-tools">
+        <span>MySQL</span><span>Python</span><span>Power BI</span><span>Statistics</span><span>DAX</span>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>Business Problem</h4>
+      <p>Determine whether a redesigned checkout experience improved conversion.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Approach</h4>
+      <p>Analyzed an A/B experiment comparing two checkout variants using conversion analysis, statistical testing, and segment-level analysis. Validated experiment quality through Sample Ratio Mismatch detection before interpreting the observed conversion difference.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Tools Used</h4>
+      <p>MySQL, Python, Statistics, Power BI, DAX</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Analysis</h4>
+      <div class="stat-row">
+        <div><strong>12.67%</strong><span>Variant A conversion</span></div>
+        <div><strong>13.73%</strong><span>Variant B conversion</span></div>
+        <div><strong>+1.06 pp</strong><span>Absolute uplift</span></div>
+        <div><strong>+8.35%</strong><span>Relative uplift</span></div>
+      </div>
+      <ul>
+        <li>SQL experiment analysis</li>
+        <li>Conversion rate analysis — absolute and relative uplift</li>
+        <li>Statistical testing</li>
+        <li>Sample Ratio Mismatch detection</li>
+        <li>Device-level and traffic-source analysis</li>
+        <li>Interactive Power BI reporting</li>
+      </ul>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Findings</h4>
+      <p>Variant B showed higher observed conversion, but Sample Ratio Mismatch was detected, so the experiment required further investigation before rollout.</p>
+      <div class="finding-callout">Variant B is not presented as a confirmed winner — SRM must be resolved before any rollout decision.</div>
+    </div>
+
+    <div class="detail-block">
+      <h4>Dashboard / Screenshots</h4>
+      <div class="project-gallery" data-gallery="project-2">
+        <div class="gallery-image" data-lightbox data-caption="Project 2 — Executive Overview">
+          <img src="assets/images/A_B-test-checkout-redesign/01-executive-overviewP2.png" alt="A/B Test Analysis — Executive Overview">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 2 — Experiment Performance">
+          <img src="assets/images/A_B-test-checkout-redesign/02-experiment-performanceP2.png" alt="A/B Test Analysis — Experiment Performance">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 2 — Segment Analysis">
+          <img src="assets/images/A_B-test-checkout-redesign/03-segment-analysisP2.png" alt="A/B Test Analysis — Segment Analysis">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 2 — Customer Details">
+          <img src="assets/images/A_B-test-checkout-redesign/04-customer-detailsP2.png" alt="A/B Test Analysis — Customer Details">
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>GitHub Repository</h4>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="https://github.com/LAKSHAYSHRIVASTAV/A_B_Test_Checkout_Redesign" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="project-detail" id="project-3">
+  <div class="wrap">
+    <a href="#projects" class="detail-back" data-close-project>← Back to Projects</a>
+
+    <div class="detail-head">
+      <h2>Multi-Channel Marketing Attribution &amp; CAC Analysis</h2>
+      <p class="project-problem">Determine which marketing channels generate valuable customers and support data-driven budget allocation.</p>
+      <div class="project-tools">
+        <span>MySQL</span><span>Excel</span><span>Python</span><span>Power BI</span>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>Business Problem</h4>
+      <p>Determine which marketing channels generate valuable customers and support data-driven budget allocation.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Approach</h4>
+      <p>Analyzed marketing-channel performance using CAC, ROAS, conversions, and revenue. Implemented multiple attribution models and developed an Excel-based ₹10 lakh budget allocation and sensitivity-analysis model.</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Tools Used</h4>
+      <p>MySQL, Excel, Python, Power BI</p>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Analysis</h4>
+      <ul>
+        <li>Attribution models: First-Touch, Last-Touch, Linear, Time-Decay, Position-Based</li>
+        <li>Customer acquisition cost (CAC) and ROAS analysis</li>
+        <li>Excel-based ₹10 lakh budget allocation model</li>
+        <li>Sensitivity analysis across scenarios</li>
+        <li>SQL data analysis and Power BI visualization</li>
+      </ul>
+    </div>
+
+    <div class="detail-block">
+      <h4>Key Findings</h4>
+      <ul>
+        <li>Conservative, Base, and Aggressive allocation scenarios modeled for budget planning</li>
+      </ul>
+    </div>
+
+    <div class="detail-block">
+      <h4>Dashboard / Screenshots</h4>
+      <div class="project-gallery" data-gallery="project-3">
+        <div class="gallery-image" data-lightbox data-caption="Project 3 — Executive Overview">
+          <img src="assets/images/Multi-Channel-Marketing-Attribution/01-executive-overviewP3.png" alt="Multi-Channel Marketing Attribution — Executive Overview">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 3 — Attribution Analysis">
+          <img src="assets/images/Multi-Channel-Marketing-Attribution/02-attribution-analysisP3.png" alt="Multi-Channel Marketing Attribution — Attribution Analysis">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 3 — CAC &amp; ROAS Analysis">
+          <img src="assets/images/Multi-Channel-Marketing-Attribution/03-cac- roas -analysisP3.png"
+               alt="Multi-Channel Marketing Attribution — CAC and ROAS Analysis">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 3 — Budget Allocation">
+          <img src="assets/images/Multi-Channel-Marketing-Attribution/04-budget-allocationP3.png" alt="Multi-Channel Marketing Attribution — Budget Allocation">
+        </div>
+        <div class="gallery-image" data-lightbox data-caption="Project 3 — Customers Drillthrough">
+          <img src="assets/images/Multi-Channel-Marketing-Attribution/05-customers-drillthroughP3.png" alt="Multi-Channel Marketing Attribution — Customers Drillthrough">
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-block">
+      <h4>GitHub Repository</h4>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="https://github.com/LAKSHAYSHRIVASTAV/Multi-Channel-Marketing-Attribution-CAC-Analysis" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+    <div class="lightbox-body" id="lightboxBody"></div>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="footer-name">LAKSHAY SHRIVASTAV</div>
+      <div class="footer-role">Data Analyst | Business Analytics</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/LAKSHAYSHRIVASTAV" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="[YOUR LINKEDIN URL]" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:lakshayshrivastav@8gmail.com">Email</a>
+    </div>
+    <div class="footer-copy">© <span id="year"></span> LAKSHAY SHRIVASTAV</div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
